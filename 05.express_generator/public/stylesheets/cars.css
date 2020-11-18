@@ -1,0 +1,43 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+
+.bg-grey{
+    background-color: rgb(46, 46, 46);
+}
+
+.bg-darkgrey{
+    background-color: rgb(26, 25, 25);
+}
+
+.bg-cochegrande{
+    background-image: url("https://i.pinimg.com/originals/a3/9f/9e/a39f9e5d01444a453752cf25d4d350a8.jpg");
+    height: 75vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-turquesa {
+    background-color: rgb(136, 201, 194);
+}
+
+.bg-black{
+    background-color: black;
+}
+
+.bg-yellow{
+    background-color: rgb(240, 240, 94);
+}
+
+.bg-red{
+    background-color: rgb(94, 11, 8);
+}
+
+.bg-wine{
+    background-color: rgb(161, 54, 90);
+}
+
+.bg-beige{
+    background-color: rgb(207, 197, 162);
+}

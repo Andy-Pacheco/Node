@@ -1,0 +1,82 @@
+a {
+    color: white;
+}
+
+.bg-black{
+    background-color: #18181c;
+}
+
+.h100 {
+    height: 100vh;
+}
+
+.bg-videogames{
+    height: 65vh;
+    background-image:url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fstore.ubi.com%2Fon%2Fdemandware.static%2F-%2FLibrary-Sites-shared-library-web%2Fdefault%2Fdwa966a139%2Flandings%2F2020%2Fuplayplus_games%2Fimages_uplayplus_hero.jpg") ;
+}
+.bg-car{
+    height: 25vh;
+    background-image: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fsubhashsanasvintagecar.com%2Fwp-content%2Fuploads%2F2018%2F08%2Fvintage-car.jpg");
+}
+.bg-visualize{
+    height: 30vh;
+    background-image: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fwww.incimages.com%2Fuploaded_files%2Fimage%2F1920x1080%2Fgetty_584203352_200013282000928014_380350.jpg");
+}
+.bg-peluqueria{
+    height: 30vh;
+    background-image: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcronicaglobal.elespanol.com%2Fuploads%2Fs1%2F11%2F15%2F89%2F92%2Feuropapress-3377112-peluqueria-centro-mayores-vitalia-canillejas-primera-residencia-cuidados.jpeg");
+}
+.bg-skater{
+    height: 30vh;
+    background-image: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fi.blogs.es%2F18df66%2Fskaterxl6%2F1366_2000.jpeg");
+}
+.bg-dogs{
+    height: 30vh;
+    background-image: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fmedia1.s-nbcnews.com%2Fi%2Fnewscms%2F2020_28%2F1587661%2Fdogs-age-years-kb-inline-200707_7d0bca498155db9ae60dd81dec0ba6ab.jpg");
+}
+.bg-people{
+    height: 30vh;
+    background-image: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Flatinwmg.com%2Fwp-content%2Fuploads%2F2019%2F05%2Frock_en_espanol.jpg");
+}
+.bg-paint{
+    height: 35vh;
+    background-image: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2FQh6sCKomswyNmQHpBiFKJ9.jpg");
+}
+.bg-books{
+    height: 25vh;
+    background-image: url("https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fdesignshack.net%2Fwp-content%2Fuploads%2FPerspective-Web-Mockup-07.jpg");
+}
+
+.bg-center{
+    background-size: cover;
+    background-position: center;
+    transition: all 0.75s;
+    position: relative;
+    filter: sepia(0.5);
+}
+
+.btn{
+    visibility: hidden;
+} 
+
+.bg-center:hover{
+    transform: scale(1.2);
+    z-index: 100;
+    box-shadow: 5px 5px 10px black;
+    background-position: left;
+    filter: none;
+}
+
+.bg-center:hover .btn{
+    visibility: unset;
+}
+
+a{
+    transition: all 0.75s cubic-bezier(0.87, -0.54, 0.61, 1.35);
+}
+
+a:hover {
+    transform: scale(1.5);
+    color: rgb(224, 155, 65);
+    margin-left: 100px;
+}
