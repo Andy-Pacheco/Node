@@ -23,4 +23,22 @@ router.get('/', function(req, res, next) {
   
 });
 
+router.get("/verFormulario", (req, res) =>{
+  res.render("ratings");
+});
+
+router.post("/enviarRating", (req, res) =>{
+  let ratingName = req.body.ratingName;
+  let rating = req.body.rating;
+
+  let sql = `INSERT INTO ratings (name_rating, number_rating) VALUES ("${ratingName}", "${rating}")`;
+
+  connection.query(sql, (err, result) =>{
+
+    if(err) throw err;
+    console.log(result);
+    res.send("ok")
+  })
+})
+
 module.exports = router;

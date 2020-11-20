@@ -23,4 +23,23 @@ router.get('/', function(req, res, next) {
   
 });
 
+router.get("/verFormulario", (req, res) =>{
+  res.render("products");
+});
+
+router.post("/enviarProduct", (req, res) =>{
+  let productName = req.body.productName;
+  let price = req.body.price;
+  let color = req.body.color;
+
+  let sql = `INSERT INTO products (name_product, price, color) VALUES ("${productName}", ${price}, "${color}")`;
+
+  connection.query(sql, (err, result) =>{
+
+    if(err) throw err;
+    console.log(result);
+    res.send("ok")
+  })
+})
+
 module.exports = router;

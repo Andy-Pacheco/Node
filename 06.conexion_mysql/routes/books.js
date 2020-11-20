@@ -23,4 +23,25 @@ router.get('/', function(req, res, next) {
   
 });
 
+router.get("/verFormulario", (req, res) =>{
+  res.render("books");
+});
+
+//localhost:3000/book/enviarBook
+router.post("/enviarBook", (req, res) =>{
+  let bookName = req.body.bookName;
+  let price = req.body.price;
+  let title = req.body.title;
+
+  let sql = `INSERT INTO books (name_book, price, title) VALUES ("${bookName}", ${price}, "${title}")`;
+
+  connection.query(sql, (err, result) =>{
+
+    if (err) throw err;
+    console.log(result);
+    res.send("ok")
+  });
+
+})
+
 module.exports = router;
