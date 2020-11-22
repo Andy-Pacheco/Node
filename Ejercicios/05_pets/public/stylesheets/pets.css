@@ -1,0 +1,180 @@
+.bg-darkblue {
+	background-color: rgb(30, 40, 77);
+}
+
+.bg-pinkdog {
+	height: 70vh;
+	background-image: url("../images/banner_bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+}
+
+.bg-white {
+	height: 70vh;
+}
+
+.bg-salchicha {
+	background-image: url("../images/about.png");
+	height: 300px;
+	background-size: contain;
+}
+
+.card {
+	border: none;
+}
+
+.por2 {
+	font-size: 200%;
+}
+.por3 {
+	font-size: 300%;
+}
+
+.text-pink {
+	color: hotpink;
+}
+
+.centrado {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.centrado-c {
+	flex-direction: column;
+}
+
+.h100 {
+	height: 100%;
+}
+
+.text-welcome {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0px 25%;
+}
+
+.paw {
+	width: 64px;
+}
+
+.pt15 {
+	padding-top: 15%;
+}
+
+.profile {
+	width: 200px;
+}
+
+.smallgrey {
+	font-size: 80%;
+	color: grey;
+}
+
+.bg-greypaper {
+	background-image: url("../images/services_bg.png");
+}
+
+.card {
+	background-color: transparent;
+}
+
+.pad100 {
+	padding: 100px 0;
+}
+
+.bg-perrete {
+	background-image: url("../images/adopt_img.png");
+	height: 70vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.adopt {
+	height: 100%;
+}
+
+.semibuton {
+	border-radius: 25px;
+	background-color: #34c0fd;
+	border-color: #34c0fd;
+}
+
+.bg-perretefeliz {
+	background-image: url("../images/review_bg.png");
+	height: 40vh;
+	background-position: center;
+}
+
+.bg-heart {
+	background-image: url("../images/valunteer_img.png");
+	height: 600px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.justify-center {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.paddedsides {
+	padding: 5%;
+}
+
+.bg-footer {
+	background-image: url("../images/footer_bg.png");
+	height: 70vh;
+}
+
+.input-group-text {
+	color: #fff;
+	background-color: #dc3545;
+	border-color: #dc3545;
+}
+
+.perrito {
+	width: 18rem;
+}
+
+@media (max-width: 575px) {
+	.bg-footer {
+		padding-top: 20% !important;
+	}
+
+	.profile {
+		width: 200px !important;
+	}
+}
+
+@media (max-width: 767px) {
+	.bg-footer {
+		padding-top: 15% !important;
+	}
+}
+
+@media (max-width: 991px) {
+	.texttop {
+		width: 80%;
+	}
+
+	.bg-footer {
+		height: 100%;
+		padding-top: 10%;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.perrito {
+		width: 80%;
+	}
+
+	.profile {
+		width: 300px;
+	}
+}
