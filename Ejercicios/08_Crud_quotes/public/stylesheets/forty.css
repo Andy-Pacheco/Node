@@ -1,0 +1,40 @@
+.bg-darkblue {
+    background-color: rgb(33, 33, 68);
+}
+
+.bg-lightblue {
+    background-color: rgb(111, 190, 164);
+}
+
+.bg-violet{
+    background-color: rgb(131, 99, 182);
+}
+
+.bg-red {
+    background-color: lightcoral;
+}
+
+.bg-orange {
+    background-color: rgb(252, 199, 150);
+}
+
+.bg-lightcyan {
+    background-color: rgb(106, 137, 168);
+}
+
+.bg-lightgreen {
+    background-color: rgb(114, 185, 135);
+}
+
+.h50 {
+    height: 50vh;
+}
+
+.bg-clearblue {
+    background-color:  rgba(56, 56, 68, 0.479);
+    border-color: transparent;
+}
+
+.h75 {
+    height: 75vh ;
+}
