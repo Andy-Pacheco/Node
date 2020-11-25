@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/pretty.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="banner">
+        <div>
+            <img src="/images/flower.png" alt="">
+            <h2>PRETTY</h3>
+            <h1>BEAUTY SALON</h2>
+            <button>View our services</button>
+        </div>
+    </header>
+    <section class="segunda-parte">
+        <div>
+            <img src="/images/facial-treatment.png" alt="">
+            <h4>skin & beauty care</h4>
+            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        </div>
+        <div>
+            <img src="/images/cosmetics.png" alt="">
+            <h4>makeup pro</h4>
+            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        </div>
+        <div>
+            <img src="/images/curl.png" alt="">
+            <h4>hair style</h4>
+            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+        </div>
+    </section>
+    <section class="tercera-parte">
+        <div>
+            <h2>our beauty experts</h2>
+            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        </div>
+        <div class="contenedor">
+
+            <% results.forEach(function(user){ %>
+            <div class="card">
+                <img src="/images/<%= user.img_user%>" alt="">
+                <h3><%= user.name %></h3>
+                <p class="subtext">Stylist</p>
+                <p><%= user.description %></p>
+            </div>
+
+            <div class="partners">
+                
+                <% results2.forEach(function(partner){%>
+
+                <img src="/images/<%= partner.img_partner %>" alt="">
+                
+                <%})%>
+
+            </div>
+
+            <% }) %>
+
+        </div>
+    </section>
+    <section class="cuarta-parte">
+        <div class="descuento">
+            <h3>Save up to 25% Off</h3>
+            <h1 class="margin">student</h1>
+            <h1>discount</h1>
+            <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem ipsum decided to leave for the far World of Grammer.</p>
+            <button>Book Now</button>
+        </div>
+    </section>
+    <section class="quinta-parte">
+        <div class="texto">
+            <h2>our work</h2>
+            <p>Far far away, behind the world mountains, far from the countries Vokalia and Consonantia, there lived the blind texts.</p>
+        </div>
+        <div class="imagenes">
+            <img src="/images/work-1.jpg" alt="">
+            <img src="/images/work-2.jpg" alt="">
+            <img src="/images/work-3.jpg" alt="">
+        </div>
+        
+    </section>
+    <section class="sexta-parte">
+        <div class="texto">
+            <h2>beauty pricing</h2>
+            <p>Far far away, behind the world mountains, far from the countries Vokalia and Consonantia, there lived the blind texts.</p>
+        </div>
+        <div class="listas">
+            <div class="lista">
+                <h4>basic</h4>
+                <h3>$24.50 <span>/ one trip</span></h3>
+                <ul>
+                    <li class="tan">Nail Cutting & Styling</li>
+                    <li>Hair Trimming</li>
+                    <li class="tan">Spa Therapy</li>
+                    <li>Body Massage</li>
+                    <li class="tan">Manicure</li>
+                </ul> 
+            </div>
+            <div class="lista">
+                <h4>basic</h4>
+                <h3>$24.50 <span>/ one trip</span></h3>
+                <ul>
+                    <li class="tan">Nail Cutting & Styling</li>
+                    <li>Hair Trimming</li>
+                    <li class="tan">Spa Therapy</li>
+                    <li>Body Massage</li>
+                    <li class="tan">Manicure</li>
+                </ul> 
+            </div>
+            <div class="listados">
+                <h4>basic</h4>
+                <h3>$24.50 <span>/ one trip</span></h3>
+                <ul>
+                    <li class="tan">Nail Cutting & Styling</li>
+                    <li>Hair Trimming</li>
+                    <li class="tan">Spa Therapy</li>
+                    <li>Body Massage</li>
+                    <li class="tan">Manicure</li>
+                </ul> 
+            </div>
+            <div class="lista">
+                <h4>basic</h4>
+                <h3>$24.50 <span>/ one trip</span></h3>
+                <ul>
+                    <li class="tan">Nail Cutting & Styling</li>
+                    <li>Hair Trimming</li>
+                    <li class="tan">Spa Therapy</li>
+                    <li>Body Massage</li>
+                    <li class="tan">Manicure</li>
+                </ul> 
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="about">
+            <h3>Address</h3>
+            <p>203 Fake St. Mountain View,<br><br> San Francisco, California,<br><br> USA</p>
+            <h3>Phone</h3>
+            <p>00 123 456 or 000 987 654</p>
+            <h3>Opening Hours</h3>
+            <p>Monday - Friday <br><br>08:00am - 09:00pm</p>
+        </div>
+        <div class="form">
+            <h2>Appointments</h2>
+            <form>
+                <div>
+                <input type="text" name="name"class="medio" placeholder="First Name">
+                <input type="text" name="lastname" class="medio" placeholder="Last Name">
+                </div>
+                <div>
+                <input type="date" name="nacimiento" id="?" class="medio" placeholder="Date">
+                <input type="text" name="phone" id="" class="medio" placeholder="Phone">
+                </div>
+                <textarea name="Comment" id="????" cols="30" rows="1" placeholder="Message"></textarea>
+            </form>
+            <button>Order</button>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,254 @@
+body {
+	margin: 0;
+	font-family: "Roboto Mono", monospace;
+	background-color: #222222;
+}
+.flex-C {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+p {
+	color: #ffffff5c;
+}
+nav {
+	background-color: #222222;
+	height: 10vh;
+	/* position: fixed; */
+	width: 100%;
+	display: flex;
+	align-items: center;
+	top: 0;
+}
+nav h3 {
+	padding-left: 78px;
+	width: 43%;
+	color: white;
+}
+.text-whiteCustom {
+	color: white !important;
+}
+h3 {
+	text-transform: uppercase;
+	color: white;
+}
+ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+	width: 40%;
+}
+ul :hover {
+	color: white;
+}
+.portada_una {
+	height: 100vh;
+	background-image: url("https://channellife.com.au/uploads/story/2020/01/17/digital_globe11.jpg");
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.colorwh {
+	color: aliceblue;
+}
+.coloryw {
+	color: white;
+}
+.titulo {
+	font-family: "Roboto Mono", monospace;
+	text-transform: uppercase;
+}
+.hijo_uno {
+	width: 40%;
+	text-align: center;
+}
+.hijo_uno h2 {
+	font-size: 50px;
+	margin: 0;
+}
+.buttonSkater {
+	background-color: transparent;
+	color: white;
+	border: 1px solid white;
+	padding: 15px;
+	border-radius: 5px;
+	margin-top: 14vh;
+}
+.title {
+	height: 40vh;
+	padding: 0 20%;
+	margin-bottom: 25px;
+}
+.title h1 {
+	text-transform: uppercase;
+	color: white;
+	font-size: 45px;
+	font-weight: 100;
+}
+.title p {
+	text-align: justify;
+}
+.services-containers {
+	height: 40vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.beginner {
+	width: 26%;
+}
+.circle {
+	width: 60px;
+	height: 60px;
+	background-color: #ffffff5c;
+	border-radius: 50%;
+}
+.performance {
+	padding: 0 10% 0 10%;
+	height: 81vh;
+	display: flex;
+}
+.attr-img {
+	height: 80vh;
+	width: 63%;
+	background-size: cover;
+	background-position: center;
+}
+.performance .img {
+	background-image: url("../images/img_1.jpg");
+}
+.performance .img2 {
+	background-image: url("../images/img_2.jpg");
+}
+.performance .text {
+	width: 50%;
+	padding-left: 10%;
+}
+.performance-h3 {
+	text-transform: uppercase;
+	color: white;
+	font-weight: 100;
+}
+.text-ul {
+	flex-direction: column;
+	width: 100%;
+	margin-top: 15px;
+}
+.text-ul li {
+	margin-bottom: 20px;
+	color: #ffffff5c;
+}
+.reverse {
+	flex-direction: row-reverse;
+}
+.reverse .text {
+	padding: 0 10% 0 0;
+}
+.team-cards {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.card {
+	width: 30%;
+	height: 280px;
+	background-color: #00000099;
+	border-radius: 5px;
+}
+.card img {
+	width: 110px;
+	border-radius: 50%;
+}
+.logos {
+	display: flex;
+	width: 50%;
+	align-items: center;
+	justify-content: center;
+}
+.card h5 {
+	margin-bottom: 0;
+	margin-top: 8px;
+}
+.card p {
+	margin-top: 2px;
+}
+.img-logo {
+	width: 25px;
+	height: 25px;
+	background-color: white;
+	border-radius: 5px;
+	margin: 0 2px 0 2px;
+}
+.info-footer {
+	height: 45vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.about,
+.newletter {
+	width: 25%;
+}
+.features {
+	width: 20%;
+}
+.features ul {
+	flex-direction: column;
+	padding: 0;
+}
+.features ul li {
+	margin: 3px 0;
+	/* line-height: 30px; */
+}
+.features ul li a {
+	color: #ffffff5c;
+	text-decoration: none;
+}
+.newletter form {
+	display: flex;
+	height: 50px;
+}
+.newletter form input {
+	background-color: transparent;
+	border: 1px solid white;
+	border-right: 0;
+}
+.newletter form button {
+	background-color: white;
+	color: white;
+	border: none;
+	border-radius: 0 5px 5px 0;
+}
+hr {
+	width: 80%;
+	border: 1px solid #ffffff5c;
+}
+.copyright {
+	text-align: center;
+	padding: 20px 0;
+	color: white;
+	font-size: 12px;
+}
+.copyright span {
+	color: #ffffff5c;
+}
+
+.btn {
+	background-color: #04356e;
+	padding: 2%;
+	border-radius: 10px;
+	box-shadow: 8px 9px 17px 0px black;
+	border: 0;
+}
+
+.btn:hover {
+	background-color: #1762b8;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}

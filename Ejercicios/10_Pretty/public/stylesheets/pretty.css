@@ -1,0 +1,469 @@
+body {
+	font-family: "Lato", sans-serif;
+	margin: 0;
+}
+
+.banner {
+	height: 100vh;
+	background-image: url("../images/bg_1.jpg");
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner div {
+	text-align: center;
+	color: white;
+	font-size: 200%;
+}
+
+header img {
+	width: 200px;
+}
+
+.banner button {
+	background-color: transparent;
+	color: white;
+	border: 1px white solid;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+.banner button:hover {
+	background-color: white;
+	color: black;
+}
+
+.segunda-parte {
+	display: flex;
+	height: 500px;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.segunda-parte h4 {
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.segunda-parte p {
+	color: rgba(0, 0, 0, 0.582);
+}
+
+.segunda-parte div {
+	width: 20%;
+	text-align: center;
+}
+
+.segunda-parte img {
+	width: 15%;
+	margin: 10%;
+}
+
+.tercera-parte {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: rgba(209, 188, 161, 0.185);
+}
+
+.contenedor {
+	display: flex;
+	width: 80%;
+	justify-content: space-evenly;
+}
+
+.tercera-parte p {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.tercera-parte div {
+	text-align: center;
+}
+
+.tercera-parte h2 {
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.card {
+	width: 20%;
+	height: 350px;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.subtext {
+	font-size: 90%;
+	color: rgba(0, 0, 0, 0.315);
+	margin: 0;
+}
+
+.card h3 {
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.card img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.descuento {
+	background-image: url("../images/bg_2.jpg");
+	background-size: cover;
+	background-position: right;
+	height: 60vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-left: 60%;
+	padding-right: 5%;
+	font-size: 150%;
+	color: white;
+}
+
+.descuento h3,
+.descuento h1 {
+	font-weight: 100;
+	margin: 1px 0;
+}
+
+.descuento h1 {
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+
+.descuento p {
+	font-size: 75%;
+}
+
+.descuento button {
+	background-color: transparent;
+	color: white;
+	border: 1px white solid;
+	padding: 20px;
+	border-radius: 25px;
+	width: 30%;
+}
+
+.descuento button:hover {
+	background-color: white;
+	color: black;
+}
+
+.quinta-parte {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.quinta-parte .texto {
+	text-align: center;
+	width: 30%;
+	margin: 0px;
+}
+
+.quinta-parte h2 {
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.quinta-parte p {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.quinta-parte .imagenes img {
+	width: 350px;
+}
+
+.quinta-parte .partners img {
+	width: 200px;
+	opacity: 50%;
+}
+
+.quinta-parte .imagenes {
+	width: 90%;
+	display: flex;
+	justify-content: space-evenly;
+	padding: 6%;
+}
+
+.quinta-parte .partners {
+	width: 100%;
+	height: 145px;
+	background-color: rgba(210, 180, 140, 0.253);
+	text-align: center;
+}
+
+.sexta-parte {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.sexta-parte .texto {
+	width: 30%;
+}
+
+.sexta-parte h4,
+h2 {
+	text-transform: uppercase;
+	font-weight: 100;
+}
+
+.sexta-parte p {
+	color: rgba(0, 0, 0, 0.4);
+}
+
+.sexta-parte .listas {
+	display: flex;
+	width: 75%;
+	justify-content: space-evenly;
+	height: 47%;
+}
+
+.sexta-parte .lista,
+.listados {
+	border: 1px #0000001e solid;
+	width: 20%;
+}
+
+.sexta-parte .listados {
+	border: 1px rgba(255, 0, 255, 0.705) solid;
+}
+
+.sexta-parte H3 {
+	color: rgba(255, 0, 255, 0.5);
+}
+
+.sexta-parte span {
+	color: rgba(0, 0, 0, 0.301);
+	font-size: 75%;
+}
+
+.sexta-parte ul {
+	list-style-type: none;
+	text-align: center;
+	padding: 0px;
+}
+
+.sexta-parte li {
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgba(0, 0, 0, 0.336);
+}
+
+.sexta-parte .tan {
+	background-color: rgba(210, 180, 140, 0.096);
+}
+
+footer {
+	height: 80vh;
+	background-color: rgb(252, 88, 252);
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	color: white;
+}
+
+.about {
+	width: 25%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: rgba(250, 135, 250, 0.582);
+}
+
+form {
+	height: 50%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.form {
+	width: 50%;
+	height: 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding-left: 5%;
+}
+
+textarea {
+	width: 80%;
+}
+
+input,
+textarea {
+	border: none;
+	background-color: transparent;
+	color: white;
+	border-bottom: 1px rgba(255, 255, 255, 0.5) solid;
+	margin-right: 5%;
+}
+
+input {
+	height: 300%;
+}
+
+::placeholder {
+	color: white;
+}
+
+.form button {
+	background-color: transparent;
+	color: white;
+	border: 1px white solid;
+	padding: 20px;
+	border-radius: 25px;
+	width: 15%;
+}
+
+.form button:hover {
+	background-color: white;
+	color: black;
+}
+
+.medio {
+	width: 37%;
+}
+
+textarea {
+	height: 25%;
+}
+
+::-webkit-calendar-picker-indicator {
+	filter: invert(1);
+}
+
+@media (max-width: 500px) {
+	.banner {
+		background-position: center;
+	}
+
+	.segunda-parte {
+		flex-direction: column;
+		height: 100%;
+	}
+
+	.segunda-parte div {
+		width: 75%;
+	}
+
+	.tercera-parte {
+		height: 100%;
+	}
+
+	.contenedor {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.card {
+		width: 80%;
+		margin-bottom: 19px;
+	}
+
+	.tercera-parte p {
+		width: 90%;
+	}
+
+	.descuento {
+		background-position: bottom;
+		height: 100vh;
+		padding: 5%;
+	}
+
+	.descuento button {
+		width: 35%;
+	}
+
+	.quinta-parte .texto {
+		width: 75%;
+	}
+
+	.quinta-parte .imagenes img {
+		width: 200px;
+		margin-bottom: 10px;
+	}
+
+	.quinta-parte .imagenes {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.quinta-parte .partners {
+		height: 100%;
+		padding: 7px 0;
+	}
+
+	.quinta-parte .partners img {
+		margin-bottom: 5px;
+	}
+
+	.sexta-parte {
+		height: 100%;
+	}
+
+	.sexta-parte .texto {
+		width: 80%;
+	}
+
+	.sexta-parte .listas {
+		flex-direction: column;
+	}
+
+	.sexta-parte .lista,
+	.listados {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	footer {
+		height: 100%;
+		flex-direction: column;
+		padding: 30px 0px;
+	}
+
+	.about {
+		width: 80%;
+	}
+
+	.form {
+		width: 80%;
+		margin-left: 20px;
+	}
+
+	.form button {
+		margin: 0 20%;
+		width: 45%;
+	}
+
+	.sexta-parte h4,
+	h2 {
+		text-align: center;
+	}
+
+	form div,
+	form textarea {
+		margin-bottom: 40px;
+	}
+}

@@ -1,0 +1,78 @@
+<!--Mostrar pagina principal con usuarios y tecnologías-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api Rest</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+    <nav>
+        <h3>Api Rest</h3>
+        <ul class="colorwh">
+            <li>Home</li>
+            <li>Services</li>
+            <li>About</li>
+            <li>Testimonials</li>
+            <li>Blog</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+    <section class="portada_una colorwh">
+        <div class="hijo_uno">
+            <h2 class="titulo">
+                Create Api Rest
+            </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem dolorum sunt adipisci ullam. sunt adipisci ullam.
+            </p>
+        </div>
+    </section>
+    <section class="out-team">
+        <div class="title flex-C">
+            <h1>Our team</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde est ab quo nobis accusamus natus. Fugit provident illo molestias.. Fugit provident illo molestias.. Fugit provident illo molestias.</p>
+        </div>
+        <div class="team-cards">
+            
+            <% results.forEach(function(user){  %>
+            <div class="card flex-C">
+                <img src="/images/<%= user.img_user %>" alt="Person 1">
+                <h5 class="text-whiteCustom"><%= user.name %></h5>
+                <p><%= user.description %></p>
+                <button class="btn btn-warning"><a href="/class/user/<%= user.id_users %>">Ver Perfil</a></button>
+            </div>
+            <% }) %>
+
+        </div>
+    </section>
+    <section class="services">
+        <div class="title flex-C">
+            <h1>Services</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti unde est ab quo nobis accusamus natus. Fugit provident illo molestias.. Fugit provident illo molestias.. Fugit provident illo molestias.</p>
+        </div>
+        <div class="services-containers">
+            <% results2.forEach(function(tech){ %>
+
+            
+            <div class="beginner">
+                <div class="circle"></div>
+                <h3><%= tech.name %></h3>
+                <p> <%= tech.description_tech %></p>
+                <p>Offered by <a class="btn btn-secondary" href="/class/user/<%= tech.id_user %>">View User</a></p>
+            </div>
+            <% })%>
+        </div>
+    </section>
+    <footer>
+        <div class="info-footer">
+        </div>
+        <hr>
+        <div class="copyright">
+            <p>Copyright ©2020 All rights reserved | This template is made with :corazón: by<span> Codehouse</span></p>
+        </div>
+    </footer>
+</body>
+</html>
